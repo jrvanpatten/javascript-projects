@@ -1,0 +1,5 @@
+const input = require('readline-sync');
+
+let name = input.question("Jack");
+
+console.log("Hello," + name + "!");
